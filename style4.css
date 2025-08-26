@@ -1,0 +1,38 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://imgs.search.brave.com/tLTD2G4uAPpnHPLhTnI0rQ4syg9VStdQVKBnQUu92Xc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aG9saWRpZnkuY29t/L2Jsb2cvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTUvMDcvNjIz/MTU3NDIyNl8zNjIx/MjMwNGIwX2IuanBn') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px 30px;
+      border-radius: 15px;
+      width: 70%;
+      max-width: 900px;
+    }
+
+    .title {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(0,0,0,0.6);
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .state-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 40px;
+      font-size: 1rem;
+      line-height: 2.0;
+    }

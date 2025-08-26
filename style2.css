@@ -1,0 +1,54 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://imgs.search.brave.com/qqO0raqgfbXyx7kh4c0sC2VZv3Fi7D7SFobYeUJgaHc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNjI0/MTg4MC5qcGc') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      width: 300px;
+      text-align: center;
+      border: 2px solid #4da6ff;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-box label {
+      display: block;
+      text-align: left;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid gray;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .login-box button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: gray;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background: #333;
+    }
+

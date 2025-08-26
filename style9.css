@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: url('https://imgs.search.brave.com/wO_dLOTICF83fOPJwSpW6aLpXkTLXG4NtuL5SNReACI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDkw/MjUxMDYwL3Bob3Rv/L3dhdGVyZmFsbHMt/aW50by10aGUta2Ft/ZW5nLXJpdmVyLWFy/dW5hY2hhbC1wcmFk/ZXNoLWluZGlhLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1X/ZVV6TUpnMV9fLXV0/SW1KUDVwU0c5dVow/ZXF5STVuY2E4bzVo/SjZvank4PQ') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+}
+
+
+ol {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+ol li {
+  margin-bottom: 12px;
+}
+
+
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #f1c40f;
+  color: black;
+  transform: scale(1.05);
+}

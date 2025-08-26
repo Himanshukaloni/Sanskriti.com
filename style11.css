@@ -1,0 +1,93 @@
+/* Global body & container styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+/* Header style */
+.header {
+  text-align: center;
+  background: #333;
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffe066;
+}
+
+/* Section layout and visuals */
+.gateway-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 2rem auto;
+  background: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+.gateway-image {
+  flex: 1 1 350px;
+  min-width: 300px;
+  max-width: 500px;
+  height: 320px;
+  object-fit: cover;
+  background: #222;
+  display: block;
+}
+
+.gateway-content {
+  flex: 2 1 300px;
+  padding: 2rem 1.5rem;
+}
+
+.gateway-title {
+  font-size: 2rem;
+  color: #ffec99;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
+
+.gateway-desc {
+  line-height: 1.7;
+  font-size: 1.08rem;
+  color: #f8f8f8;
+  margin-bottom: 0.7rem;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 900px) {
+  .gateway-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gateway-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+  .gateway-title {
+    font-size: 1.1rem;
+  }
+  .gateway-content {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .gateway-image {
+    height: 180px;
+  }
+}
